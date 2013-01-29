@@ -13,7 +13,7 @@ task :default => [:"cucumber:all", :spec]
 
 Cfi::Application.load_tasks
 #<<<<<<< HEAD
-module ::Cfi_aberdeen
+module ::Bezallel
   class Application
     include Rake::DSL
   end
